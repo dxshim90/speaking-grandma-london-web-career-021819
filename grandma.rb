@@ -15,9 +15,9 @@
 def speak_to_grandma(phrase)
   if phrase.Capitalize == false
     return "HUH?! SPEAK UP SONNY!."
-    if else (phrase.Capitalize == true)
+    else if (phrase.Capitalize == true)
       return "NO, NOT SINCE 1938!."
-      if else phrase == "I LOVE YOU GRANDMA"
+      else if phrase == "I LOVE YOU GRANDMA"
         return "I LOVE YOU TOO PUMPKIN!"
       end
     end
