@@ -11,3 +11,14 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+
+def speak_to_grandma(phrase)
+  if phrase.Capitalize == false
+    return "HUH?! SPEAK UP SONNY!."
+    if else (phrase.Capitalize == true)
+      return "NO, NOT SINCE 1938!."
+      if else phrase == "I LOVE YOU GRANDMA"
+        return "I LOVE YOU TOO PUMPKIN!"
+      end
+    end
+    
